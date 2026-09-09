@@ -1,0 +1,56 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Kaggle
+kaggle.json
+
+# Datasets
+data/
+datasets/
+
+# Large data files
+*.parquet
+*.jsonl
+*.csv
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+logs/
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Secrets
+.env
+*.key
+*.pem
+*.secret
+
+# OS
+.DS_Store
+Thumbs.db

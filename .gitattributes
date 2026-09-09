@@ -1,0 +1,15 @@
+
+*.py text
+*.md text
+*.txt text
+*.yaml text
+*.yml text
+*.json text
+
+*.ipynb linguist-language=Jupyter Notebook
+
+*.safetensors binary
+*.bin binary
+*.pt binary
+*.pth binary
+*.ckpt binary
